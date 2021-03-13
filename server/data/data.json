@@ -1,0 +1,702 @@
+[
+    {
+        "id": 1,
+        "emoji": "🐵 👁 🐒 🤚",
+        "answer": "monkey see monkey",
+        "level": 1, 
+        "category": "popular phrases" 
+    },
+    {
+        "id": 2,
+        "emoji": "🌧 🐱 🐱 🐶 🐶",
+        "answer": "raining cats and dogs",
+        "level": 1, 
+        "category": "popular phrases"
+    },
+    {
+        "id": 3,
+        "emoji": "👈 ⬜️ ☝️",
+        "answer": "back to square one",
+        "level": 2,
+        "category": "popular phrases"
+    },
+    {
+        "id": 4,
+        "emoji": "❄️ 🦃",
+        "answer": "cold turkey",
+        "level": 1,
+        "category": "popular phrases"
+    },
+    {
+        "id": 5,
+        "emoji": "🏠 👇 🗻",
+        "answer": "living under a rock",
+        "level": 2,
+        "category": "popular phrases"
+    },
+    {
+        "id": 6,
+        "emoji": "🔪 🩸 🐦 🐤 ☝️ 🗻",
+        "answer": "kill two birds with one stone",
+        "level": 1,
+        "category": "popular phrases"
+    },
+    {
+        "id": 7,
+        "emoji": "🕐 🐷 🕊",
+        "answer": "when pigs fly",
+        "level": 1,
+        "category": "popular phrases"
+    },
+    {
+        "id": 8,
+        "emoji": "💵 🚫 🌳",
+        "answer": "money doesn't grow on trees",
+        "level": 1,
+        "category": "popular phrases"
+    },
+    {
+        "id": 9,
+        "emoji": "🗣 👂 📴",
+        "answer": "talk your ear off",
+        "level": 2,
+        "category": "popular phrases"
+    }, 
+    {
+        "id": 10,
+        "emoji": "🤲 ☝️ 🧠 ☝️",
+        "answer": "takes one to know one",
+        "level": 2,
+        "category": "popular phrases"
+    }, 
+    {
+        "id": 11,
+        "emoji": "👴 💍 👵",
+        "answer": "like and old married couple",
+        "level": 2,
+        "category": "popular phrases"
+    },
+    {
+        "id": 12,
+        "emoji": "🔥 🌉 🌉",
+        "answer": "burning bridges",
+        "level": 1,
+        "category": "popular phrases"
+    },
+    {
+        "id": 13,
+        "emoji": "🦆 ✌️ 🌊",
+        "answer": "duck to water",
+        "level": 2,
+        "category": "popular phrases"
+    }, 
+    {
+        "id": 14,
+        "emoji": "🚫 🚀 👩‍🔬",
+        "answer": "not rocker science",
+        "level": 2,
+        "category": "popular phrases"
+    }, 
+    {
+        "id": 15,
+        "emoji": "🕰 ✈️ 🥳",
+        "answer": "time flies when you're having fun",
+        "level": 2,
+        "category": "popular phrases"
+    },
+    {
+        "id": 16,
+        "emoji": "👁 4️⃣ 👁 🦷 4️⃣ 🦷",
+        "answer": "an eye for an eye a tooth for a tooth",
+        "level": 1,
+        "category": "popular phrases"
+    },
+    {
+        "id": 17,
+        "emoji": "💵 💪 ➕ 🦵",
+        "answer": "costs and arm and a leg",
+        "level": 2,
+        "category": "popular phrases"
+    },
+    {
+        "id": 18,
+        "emoji": "🚫 🧮 🐔 🐔 🐣",
+        "answer": "don't count your chickens before they hatch",
+        "level": 2,
+        "category": "popular phrases"
+    },
+    {
+        "id": 19,
+        "emoji": "🚫 🥚 🥚 🥚 🧺",
+        "answer": "don't put all your eggs in one basket",
+        "level": 2,
+        "category": "popular phrases"
+    },
+    {
+        "id": 20,
+        "emoji": "🐟 🦈 🍳",
+        "answer": "bigger fish to fry",
+        "level": 2,
+        "category": "popular phrases"
+    },
+    {
+        "id": 21,
+        "emoji": "💰 4️⃣ 🌧 📅",
+        "answer": "saving for a rainy day",
+        "level": 2,
+        "category": "popular phrases"
+    },
+    {
+        "id": 22,
+        "emoji": "🏃‍♀️ 🏋️‍♂️ 🏊‍♀️ 🎻",
+        "answer": "fit as a fiddle",
+        "level": 2,
+        "category": "popular phrases"
+    },
+    {
+        "id": 23,
+        "emoji": "🎬 2️⃣ 💃 💃",
+        "answer": "takes two to tango",
+        "level": 2,
+        "category": "popular phrases"
+    },
+    {
+        "id": 24,
+        "emoji": "❄️ 🥒",
+        "answer": "cool as a cucumber",
+        "level": 2,
+        "category": "popular phrases"
+    },
+    {
+        "id": 25,
+        "emoji": "🐔 🐂 📖",
+        "answer": "cock and bull story",
+        "level": 2,
+        "category": "popular phrases"
+    }, 
+    {
+        "id": 26,
+        "emoji": "🍺 🥽 🥽 ",
+        "answer": "beer goggles",
+        "level": 2,
+        "category": "popular phrases"
+    }, 
+    {
+        "id": 27,
+        "emoji": "👹 🔥 👹 🔥 🔔 🔔 🔔",
+        "answer": "hell's bells",
+        "level": 2,
+        "category": "popular phrases"
+    }, 
+    {
+        "id": 28,
+        "emoji": "⚰️ 💍 🏥",
+        "answer": "dead ringer",
+        "level": 2,
+        "category": "popular phrases"
+    }, 
+    {
+        "id": 29,
+        "emoji": "🐝 🐝 🦵🦵",
+        "answer": "the bee's knees",
+        "level": 2,
+        "category": "popular phrases"
+    }, 
+    {
+        "id": 30,
+        "emoji": "🚫 🛌 😈",
+        "answer": "no rest for the wicked",
+        "level": 2,
+        "category": "popular phrases"
+    }, 
+    {
+        "id": 31,
+        "emoji": "🦜 🦜 🐝 🐝",
+        "answer": "the birds and the bees",
+        "level": 2,
+        "category": "popular phrases"
+    }, 
+    {
+        "id": 32,
+        "emoji": "🕰 🕰 🕰 🍀",
+        "answer": "third times the charm",
+        "level": 2,
+        "category": "popular phrases"
+    }, 
+    {
+        "id": 33,
+        "emoji": "🦌 👱‍♂️ 💡 💡",
+        "answer": "deer in head lights",
+        "level": "", 
+        "category": "popular phrases"
+    },
+    {
+        "id": 34,
+        "emoji": "🔫 🐟 🛢",
+        "answer": "shooting fish in barrel",
+        "level": "", 
+        "category": "popular phrases"
+    },
+    {
+        "id": 35,
+        "emoji": "🅰️ ♠️ 🕳",
+        "answer": "ace in the hole",
+        "level": "", 
+        "category": "popular phrases"
+    }, 
+    {
+        "id": 36,
+        "emoji": "⏰ ➕ 👃 ☕️",
+        "answer": "wake up and smell the coffee",
+        "level": "", 
+        "category": "popular phrases"
+    }, 
+    {
+        "id": 37,
+        "emoji": "😭 🐺",
+        "answer": "cry wolf",
+        "level": "", 
+        "category": "popular phrases"
+    },
+    {
+        "id": 50,
+        "emoji": "💃 👑",
+        "answer": "dancing queen - abba",
+        "level": 2,
+        "category": "songs"
+    }, 
+    {
+        "id": 52,
+        "emoji": "🛏 🌹 🥀",
+        "answer": "bed of roses - bon jovi",
+        "level": 2,
+        "category": "songs"
+    }, 
+    {
+        "id": 53,
+        "emoji": "🙈 💡 💡",
+        "answer": "blinding lights - the weekend",
+        "level": 2,
+        "category": "songs"
+    },
+    {
+        "id": 54, 
+        "emoji": "👴 🏘 🛣",
+        "answer": "old town road - lil nas x",
+        "level": "",
+        "category": "songs"
+    },
+    {
+        "id": 55, 
+        "emoji": "🍉 🍬",
+        "answer": "watermelon sugar - harry styles",
+        "level": "",
+        "category": "songs"
+    },
+    {
+        "id": 56, 
+        "emoji": "👎 💉",
+        "answer": "bad blood - taylor swift",
+        "level": "",
+        "category": "songs"
+    },
+    {
+        "id": 57, 
+        "emoji": "⭕️ ⭕️ ⭕️ ⭕️",
+        "answer": "circles - post malone",
+        "level": "",
+        "category": "songs"
+    }, 
+    {
+        "id": 58, 
+        "emoji": "🍺 🚫 💔",
+        "answer": "beer never broke my heart - luke combs",
+        "level": "",
+        "category": "songs"
+    },
+    {
+        "id": 59, 
+        "emoji": "🍭",
+        "answer": "sucker - jonas brothers",
+        "level": "",
+        "category": "songs"
+    }, 
+    {
+        "id": 60, 
+        "emoji": "🕺 🐒",
+        "answer": "dance monkey - tones & i",
+        "level": "",
+        "category": "songs"
+    },
+    {
+        "id": 61, 
+        "emoji": "🌊 👀",
+        "answer": "ocean eyes - billie eilish",
+        "level": "",
+        "category": "songs"
+    }, 
+    {
+        "id": 62, 
+        "emoji": "💍 💍 💍 💍 💍 💍 💍",
+        "answer": "7 rings - ariana grande",
+        "level": "",
+        "category": "songs"
+    }, 
+    {
+        "id": 63, 
+        "emoji": "🐌 🤲",
+        "answer": "slow hands - nial horan",
+        "level": "",
+        "category": "songs"
+    }, 
+    {
+        "id": 64, 
+        "emoji": "👈 ✌️ ⬛️",
+        "answer": "back to black - amy winehouse",
+        "level": "",
+        "category": "songs"
+    },  
+    {
+        "id": 65, 
+        "emoji": "♦️ ♠️ ♥️ ♣️ 🙍‍♀️",
+        "answer": "poker face - lady gaga",
+        "level": "",
+        "category": "songs"
+    }, 
+    {
+        "id": 66, 
+        "emoji": "💧 👇 🔥",
+        "answer": "drop it like its hot - snoop dog",
+        "level": "",
+        "category": "songs"
+    },
+    {
+        "id": 67, 
+        "emoji": "🧼 🧹 🤷‍♀️",
+        "answer": "dirt off your shoulder - jay z",
+        "level": "",
+        "category": "songs"
+    }, 
+    {
+        "id": 68, 
+        "emoji": "👩‍🔬",
+        "answer": "the scientist - coldplay",
+        "level": "",
+        "category": "songs"
+    }, 
+    {
+        "id": 69, 
+        "emoji": "♾ ♥️ 🙍",
+        "answer": "i will always love you - whitney houston",
+        "level": "",
+        "category": "songs"
+    }, 
+    {
+        "id": 70, 
+        "emoji": "👶🏻 ☝️ ➕ 🕰",
+        "answer": "babby one more time - britney spears",
+        "level": "",
+        "category": "songs"
+    }, 
+    {
+        "id": 71, 
+        "emoji": "🕯 🌬",
+        "answer": "candle in the wind - elton john",
+        "level": "",
+        "category": "songs"
+    },
+    {
+        "id": 72, 
+        "emoji": "👃 🧍 🥃",
+        "answer": "smells like teen spirit - nirvana",
+        "level": "",
+        "category": "songs"
+    }, 
+    {
+        "id": 73, 
+        "emoji": "⛪️ 💾 👸",
+        "answer": "god save teh queen - sex pistols",
+        "level": "",
+        "category": "songs"
+    }, 
+    {
+        "id": 74, 
+        "emoji": "🍬 👶🏻 🤱",
+        "answer": "sweet child of mine - guns n' roses",
+        "level": "",
+        "category": "songs"
+    }, 
+    {
+        "id": 75, 
+        "emoji": "🚫 🙎‍♀️ 🚫 😭",
+        "answer": "no woman no cry - bob marley",
+        "level": "",
+        "category": "songs"
+    }, 
+    {
+        "id": 76,
+        "emoji": "☁️ ➡️ 🌥 ➡️🌤 ➡️ ☀️",
+        "answer": "here comes the sun - the beatles",
+        "level": "", 
+        "category": "songs"
+    },  
+    {
+        "id": 101,
+        "emoji": "🐝",
+        "answer": " charlotte hornets",
+        "level": "", 
+        "category": "nba teams"
+    },
+    {
+        "id": 102,
+        "emoji": "☀️",
+        "answer": "phoenix suns",
+        "level": "", 
+        "category": "nba teams"
+    },
+    {
+        "id": 103,
+        "emoji": "🔥",
+        "answer": "miami heat",
+        "level": "1", 
+        "category": "nba teams"
+    },
+    {
+        "id": 104,
+        "emoji": "💵",
+        "answer": "milwaukee bucks",
+        "level": "", 
+        "category": "nba teams"
+    },
+    {
+        "id": 105,
+        "emoji": "🐻",
+        "answer": "memphis grizzlies",
+        "level": "", 
+        "category": "nba teams"
+    },
+    {
+        "id": 106,
+        "emoji": "🌊",
+        "answer": "los angeles lakers",
+        "level": "", 
+        "category": "nba teams"
+    },
+    {
+        "id": 107,
+        "emoji": "🌉",
+        "answer": "golden state warriors",
+        "level": "", 
+        "category": "nba teams"
+    },
+    {
+        "id": 108,
+        "emoji": "🦖",
+        "answer": "toronto raptors",
+        "level": "", 
+        "category": "nba teams"
+    }, 
+    {
+        "id": 109,
+        "emoji": "🚀",
+        "answer": "houston rockets",
+        "level": "1", 
+        "category": "nba teams"
+    }, 
+    {
+        "id": 110,
+        "emoji": "✂️",
+        "answer": "los angeles clippers",
+        "level": "", 
+        "category": "nba teams"
+    }, 
+    {
+        "id": 110,
+        "emoji": "🧙‍♂️",
+        "answer": "washington wizards",
+        "level": "", 
+        "category": "nba teams"
+    },
+    {
+        "id": 112,
+        "emoji": "🍀",
+        "answer": "boston celtics",
+        "level": "", 
+        "category": "nba teams"
+    }, 
+    {
+        "id": 113,
+        "emoji": "🎺",
+        "answer": "utah jazz",
+        "level": "", 
+        "category": "nba teams"
+    }, 
+    {
+        "id": 114,
+        "emoji": "🐺",
+        "answer": "minnesota timberwolves",
+        "level": "", 
+        "category": "nba teams"
+    },  
+    {
+        "id": 115,
+        "emoji": "🤴",
+        "answer": "sacramento kings",
+        "level": "", 
+        "category": "nba teams"
+    }, 
+    {
+        "id": 116,
+        "emoji": "⚡️",
+        "answer": "oklahoma city thunder",
+        "level": "", 
+        "category": "nba teams"
+    }, 
+    {
+        "id": 151,
+        "emoji": "🙏 📝",
+        "answer": "god's plan",
+        "level": "", 
+        "category": "drake songs"
+    }, 
+    {
+        "id": 152,
+        "emoji": "☝️ 🕺",
+        "answer": "one dance",
+        "level": "", 
+        "category": "drake songs"
+    }, 
+    {
+        "id": 153,
+        "emoji": "❤️ 🍎",
+        "answer": "passionfruit",
+        "level": "", 
+        "category": "drake songs"
+    }, 
+    {
+        "id": 154,
+        "emoji": "🎮",
+        "answer": "controller",
+        "level": "", 
+        "category": "drake songs"
+    }, 
+    {
+        "id": 155,
+        "emoji": "▶️ 👇",
+        "answer": "started from the bottom",
+        "level": "", 
+        "category": "drake songs"
+    }, 
+    {
+        "id": 156,
+        "emoji": "💵 ⚰️",
+        "answer": "money in the grave",
+        "level": "", 
+        "category": "drake songs"
+    },
+    {
+        "id": 157,
+        "emoji": "🎭",
+        "answer": "laugh now cry later",
+        "level": "", 
+        "category": "drake songs"
+    },
+    {
+        "id": 158,
+        "emoji": "🪂 🧍‍♂️",
+        "answer": "jumpman",
+        "level": "", 
+        "category": "drake songs"
+    }, 
+    {
+        "id": 159,
+        "emoji": "🎭",
+        "answer": "laugh now cry later",
+        "level": "", 
+        "category": "drake songs"
+    }, 
+    {
+        "id": 201,
+        "emoji": "🔔 🏋️‍♂️",
+        "answer": "belgium",
+        "level": "", 
+        "category": "countries"
+    }, 
+    {
+        "id": 202,
+        "emoji": "🦃",
+        "answer": "turkey",
+        "level": "", 
+        "category": "countries"
+    }, 
+    {
+        "id": 203,
+        "emoji": "😡 🅰️ 💨 🚘",
+        "answer": "Madagascar",
+        "level": "", 
+        "category": "countries"
+    },
+    {
+        "id": 204,
+        "emoji": "🦠 🅰️ 🦵",
+        "answer": "Germany",
+        "level": "", 
+        "category": "countries"
+    },
+    {
+        "id": 205,
+        "emoji": "👔 🏞",
+        "answer": "Thailand",
+        "level": "", 
+        "category": "countries"
+    }, 
+    {
+        "id": 206,
+        "emoji": "🦈 🏞",
+        "answer": "Finland",
+        "level": "", 
+        "category": "countries"
+    }, 
+    {
+        "id": 207,
+        "emoji": "🍳 🅰️ 👩‍👧",
+        "answer": "Panama",
+        "level": "", 
+        "category": "countries"
+    },
+    {
+        "id": 208,
+        "emoji": "🤤 🍔 🍟 🌭 🍕",
+        "answer": "Hungary",
+        "level": "", 
+        "category": "countries"
+    }, 
+    {
+        "id": 209,
+        "emoji": "🥶",
+        "answer": "Chili",
+        "level": "", 
+        "category": "countries"
+    }, 
+    {
+        "id": 210,
+        "emoji": "🍐 🦘",
+        "answer": "Peru",
+        "level": "", 
+        "category": "countries"
+    }, 
+    {
+        "id": 211,
+        "emoji": "🎷 🎺 🤢",
+        "answer": "Brazil",
+        "level": "", 
+        "category": "countries"
+    }, 
+    {
+        "id": 212,
+        "emoji": "🚣‍♀️ 🦁 👂 🅰️",
+        "answer": "Romainia",
+        "level": "", 
+        "category": "countries"
+    }
+]
