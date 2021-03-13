@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 
 import { useState, useEffect } from 'react';
 import axios from 'axios';
@@ -16,14 +16,18 @@ function App() {
     axios
       .get(API_URL)
       .then((response) => {
-        // console.log(response.data);
         setGameData(response.data)
       })
   }, [])
 
+  const categories = Object.keys(gameData);
+  if (categories.length === 0) {
+    return <p>Loading...</p>; 
+  }
+
   return (
     <div className="app">
-      {/* <GameBoard categories={['songs', 'popular phrases', 'drake songs', 'nba teams', 'countries']} /> */}
+      <GameBoard categories={categories} gameData={gameData} />
     </div>
   );
 }
