@@ -1,11 +1,23 @@
-import React from 'react';
+import { useState } from 'react';
 import './QuestionCard.scss'
 
-const QuestionCard = ({ question }) => {
+// COMPONENTS
+import QuestionModal from '../QuestionModal/QuestionModal';
+
+const QuestionCard = ({ question, value }) => {
+    const [wasClicked, setWasClicked] = useState(false)
+
+    const showQuestion = () => {
+        setWasClicked(true);
+    }
+
     return (
-        <div className="question-card">
-            {question.emoji}
+        <>
+        <div className="question-card" onClick={showQuestion}>
+            {wasClicked ? "" : value}
         </div>
+        {wasClicked && <QuestionModal question={question}/>}
+        </>
     );
 };
 
