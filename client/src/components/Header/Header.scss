@@ -1,0 +1,18 @@
+@use '../../partials/typography' as *;
+@use '../../partials/mixins' as *;
+@use '../../partials/variables' as *;
+
+.header {
+    @include flex-center;
+    height: 10vh;
+    padding: 0.75rem 0;
+    background-color: $jeopardy-gold;
+    &__title {
+        color: $jeopardy-blue;
+        font-family: 'Gyparody';
+        font-size: 3.5rem;
+        letter-spacing: 2px;
+        line-height: 3.5rem;
+        text-shadow: 0px 0px 5px darkblue;
+    }
+}
