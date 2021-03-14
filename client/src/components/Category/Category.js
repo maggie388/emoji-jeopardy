@@ -4,7 +4,7 @@ import './Category.scss'
 import CategoryHeading from '../CategoryHeading/CategoryHeading';
 import QuestionCard from '../QuestionCard/QuestionCard';
 
-const Category = ({ heading, questions }) => {
+const Category = ({ heading, questions, questionOpen, setQuestionOpen }) => {
     let value = 0;
     return (
         <div className="category">
@@ -12,7 +12,15 @@ const Category = ({ heading, questions }) => {
             {
                 questions.map((q) => {
                     value += 200;
-                    return <QuestionCard key={q.id} question={q.emoji} value={value} />
+                    return (
+                        <QuestionCard 
+                            key={q.id} 
+                            question={q.emoji} 
+                            value={value} 
+                            questionOpen={questionOpen}
+                            setQuestionOpen={setQuestionOpen}
+                        />
+                    )
                 })
             }
         </div>

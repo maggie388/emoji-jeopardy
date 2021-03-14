@@ -4,11 +4,14 @@ import './QuestionCard.scss'
 // COMPONENTS
 import QuestionModal from '../QuestionModal/QuestionModal';
 
-const QuestionCard = ({ question, value }) => {
+const QuestionCard = ({ question, value, questionOpen, setQuestionOpen }) => {
     const [wasClicked, setWasClicked] = useState(false)
 
     const showQuestion = () => {
-        setWasClicked(true);
+        if (!questionOpen) {
+            setWasClicked(true);
+            setQuestionOpen(true);
+        }
     }
 
     return (
