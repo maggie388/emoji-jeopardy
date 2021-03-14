@@ -1,10 +1,11 @@
 import React from 'react';
 import './QuestionModal.scss';
 
-const QuestionModal = ({ question }) => {
+const QuestionModal = ({ question, timer }) => {
     return (
         <div className='question-modal'>
-            {question}
+            <p>{question}</p>
+            <p>{timer}</p>
         </div>
     );
 };
