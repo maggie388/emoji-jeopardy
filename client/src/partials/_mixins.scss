@@ -19,7 +19,8 @@
 @mixin headingCard {
     @include questionCard;
     padding: 0.5rem;
-    border: 5px inset $jeopardy-blue;
+    border: 10px inset $jeopardy-blue;
+    margin-bottom: 0.5rem;
     color: #ffff;
     font-size: 1rem;
     text-align: center;
