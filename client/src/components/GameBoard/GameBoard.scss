@@ -1,6 +1,8 @@
+@use '../partials/variables' as *;
+
 .game-board {
     display: flex;
     justify-content: space-between;
-    background-color: powderblue;
+    background-color: $jeopardy-gold;
     height: 80vh;
 }

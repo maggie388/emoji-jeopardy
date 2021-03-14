@@ -14,7 +14,7 @@ const QuestionCard = ({ question, value }) => {
     return (
         <>
         <div className="question-card" onClick={showQuestion}>
-            {wasClicked ? "" : value}
+            {wasClicked ? "" : `$${value}`}
         </div>
         {wasClicked && <QuestionModal question={question}/>}
         </>

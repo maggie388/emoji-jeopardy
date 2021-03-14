@@ -1,4 +1,6 @@
+@use '../partials/variables' as *;
+@use '../partials/mixins' as *;
+
 .category-heading {
-    height: 15%;
-    background-color: darkblue;
+    @include headingCard;
 }

@@ -1,0 +1,27 @@
+@use './variables' as *;
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin questionCard {
+    @include flex-center;
+    height: 16%;
+    color: $jeopardy-gold;
+    background-color: $jeopardy-blue;
+    font-size: 1.75rem;
+    background-image: radial-gradient($jeopardy-blue, darkblue);
+
+}
+
+@mixin headingCard {
+    @include questionCard;
+    padding: 0.5rem;
+    border: 5px inset $jeopardy-blue;
+    color: #ffff;
+    font-size: 1rem;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, $jeopardy-blue, darkblue);
+}

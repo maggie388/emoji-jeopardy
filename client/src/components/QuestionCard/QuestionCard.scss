@@ -1,4 +1,5 @@
+@use '../partials/mixins' as *;
+
 .question-card {
-    height: 15%;
-    background-color: lightblue;
+    @include questionCard;
 }
