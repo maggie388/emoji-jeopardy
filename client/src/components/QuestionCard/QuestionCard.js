@@ -8,7 +8,7 @@ let count;
 
 const QuestionCard = ({ question, answer, value, questionOpen, setQuestionOpen }) => {
     
-    const timeLimit = 5;
+    const timeLimit = 60;
     let seconds = timeLimit;
     
     // STATE
@@ -26,7 +26,7 @@ const QuestionCard = ({ question, answer, value, questionOpen, setQuestionOpen }
     }
 
     const showQuestion = () => {
-        if (!questionOpen) {
+        if (!questionOpen && !wasClicked) {
             setIsOpen(true);
             setWasClicked(true);
             setQuestionOpen(true);
@@ -36,9 +36,11 @@ const QuestionCard = ({ question, answer, value, questionOpen, setQuestionOpen }
 
     const showAnswerOnClick = () => {
         setShowAnswer(true);
+        clearInterval(count);
     }
 
     const closeWindowOnClick = () => {
+        clearInterval(count);
         setIsOpen(false);
         setQuestionOpen(false);
     }

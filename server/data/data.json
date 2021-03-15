@@ -2,7 +2,7 @@
     {
         "id": 1,
         "emoji": "🐵 👁 🐒 🤚",
-        "answer": "monkey see monkey",
+        "answer": "monkey see monkey do",
         "level": 400, 
         "category": "popular phrases" 
     },
@@ -15,7 +15,7 @@
     },
     {
         "id": 3,
-        "emoji": "👈 ⬜️ ☝️",
+        "emoji": "⬅️ ✌️ ⬜️ ☝️",
         "answer": "back to square one",
         "level": 1000,
         "category": "popular phrases"
@@ -29,7 +29,7 @@
     },
     {
         "id": 5,
-        "emoji": "🏠 👇 🗻",
+        "emoji": "🏠 👇 🪨",
         "answer": "living under a rock",
         "level": 600,
         "category": "popular phrases"
