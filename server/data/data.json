@@ -93,7 +93,7 @@
     {
         "id": 14,
         "emoji": "🚫 🚀 👩‍🔬",
-        "answer": "not rocker science",
+        "answer": "not rocket science",
         "level": 400,
         "category": "popular phrases"
     }, 
@@ -415,7 +415,7 @@
     {
         "id": 73, 
         "emoji": "⛪️ 💾 👸",
-        "answer": "god save teh queen - sex pistols",
+        "answer": "god save the queen - sex pistols",
         "level": "600",
         "category": "songs"
     }, 
@@ -568,7 +568,7 @@
     }, 
     {
         "id": 153,
-        "emoji": "❤️ 🍎",
+        "emoji": "❤️ 🍐 🍑 🍎",
         "answer": "passionfruit",
         "level": "600", 
         "category": "drake songs"
@@ -576,7 +576,7 @@
     {
         "id": 154,
         "emoji": "🎮",
-        "answer": "controller",
+        "answer": "controlla",
         "level": "800", 
         "category": "drake songs"
     }, 
