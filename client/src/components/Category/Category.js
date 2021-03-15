@@ -15,7 +15,8 @@ const Category = ({ heading, questions, questionOpen, setQuestionOpen }) => {
                     return (
                         <QuestionCard 
                             key={q.id} 
-                            question={q.emoji} 
+                            question={q.emoji}
+                            answer={q.answer} 
                             value={value} 
                             questionOpen={questionOpen}
                             setQuestionOpen={setQuestionOpen}

@@ -1,19 +1,53 @@
 @use '../../partials/variables' as *;
 @use '../../partials/mixins' as *;
 
-$modal-width: 50%;
-$modal-height: 50%;
+$modal-width: 60vw;
+$modal-height: 50vh;
 
 
 .question-modal {
     @include flex-center;
+    flex-direction: column;
     position: absolute;
     top: 100px;
     left: calc((100% - #{$modal-width}) / 2);
     width: $modal-width;
     height: $modal-height;
+    padding: 1rem;
     border: 5px solid darkblue;
     background-color: $jeopardy-blue;
-    font-size: 5rem;
     box-shadow: 0px 0px 100px 400px rgba(0,0,0, 0.7);
+    &__close {
+        width: 2rem;
+        align-self: flex-end;
+    }
+    &__emoji {
+        @include flex-center;
+        height: 60%;
+        font-size: 5rem;
+    }
+    &__timer {
+        margin-bottom: 0.5rem;
+        font-size: 3rem;
+        font-weight: bold;
+        color: $jeopardy-gold;
+    }
+    &__button {
+        @include headingCard;
+        height: auto;
+        padding: 0.5rem;
+        border-width: 5px;
+        border-radius: 5px;
+        outline: none;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        color: $jeopardy-gold;
+        cursor: pointer;
+        &:hover {
+            border-style: outset;
+        }
+    }
+    &__answer {
+        font-size: 2rem;
+        color: $jeopardy-gold;
+    }
 }
