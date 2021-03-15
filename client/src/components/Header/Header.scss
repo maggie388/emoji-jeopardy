@@ -4,7 +4,7 @@
 
 .header {
     @include flex-center;
-    height: 10vh;
+    height: $header-height;
     padding: 0.75rem 0;
     background-color: $jeopardy-gold;
     &__title {

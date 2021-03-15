@@ -6,7 +6,7 @@ import Category from '../Category/Category';
 const GameBoard = ({ categories, gameData }) => {
     const [questionOpen, setQuestionOpen] = useState(false);
     return (
-        <div className='game-board'>
+        <main className='game-board'>
             {
                 categories.map((category, i) => {
                     return (
@@ -20,7 +20,7 @@ const GameBoard = ({ categories, gameData }) => {
                     );
                 })
             }
-        </div>
+        </main>
     );
 };
 

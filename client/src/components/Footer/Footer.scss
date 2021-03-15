@@ -1,0 +1,6 @@
+@use '../../partials/variables' as *;
+
+.footer {
+    height: $footer-height;
+    background-color: $jeopardy-gold;
+}

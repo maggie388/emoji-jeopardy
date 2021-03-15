@@ -7,6 +7,7 @@ import axios from 'axios';
 // COMPONENTS
 import Header from './components/Header/Header';
 import GameBoard from './components/GameBoard/GameBoard';
+import Footer from './components/Footer/Footer';
 
 const API_URL = 'http://localhost:8080/game';
 
@@ -30,6 +31,7 @@ function App() {
     <div className="app">
       <Header />
       <GameBoard categories={categories} gameData={gameData} />
+      <Footer />
     </div>
   );
 }
