@@ -20,6 +20,7 @@ $modal-height: 50vh;
     &__close {
         width: 2rem;
         align-self: flex-end;
+        cursor: pointer;
     }
     &__emoji {
         @include flex-center;

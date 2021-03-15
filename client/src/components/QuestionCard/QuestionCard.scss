@@ -2,4 +2,5 @@
 
 .question-card {
     @include questionCard;
+    cursor: pointer;
 }
