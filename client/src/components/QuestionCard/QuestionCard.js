@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import './QuestionCard.scss'
 
 // COMPONENTS
@@ -8,17 +8,20 @@ let count;
 
 const QuestionCard = ({ question, answer, value, questionOpen, setQuestionOpen }) => {
     
-    const timeLimit = 60;
+    const timeLimit = 5;
     let seconds = timeLimit;
     
     // STATE
     const [isOpen, setIsOpen ] = useState(false)
     const [wasClicked, setWasClicked] = useState(false)
     const [timer, setTimer] = useState(seconds);
-    const [showAnswer, setShowAnswer] = useState(false)
+    const [showAnswer, setShowAnswer] = useState(false);
+    const themeAudioRef = useRef();
+    const timesUpAudioRef = useRef();
 
 
     const countDown = () => {
+        if (seconds === 0) seconds = timeLimit;
         if (seconds > 0) {
             seconds = seconds - 1;
             setTimer(seconds);
@@ -48,8 +51,8 @@ const QuestionCard = ({ question, answer, value, questionOpen, setQuestionOpen }
     useEffect(() => {
         if (timer === 0) {
             clearInterval(count);
-            
-            seconds = timeLimit;
+            themeAudioRef.current.pause();
+            timesUpAudioRef.current.play();
         }
     }, [timer])
 
@@ -60,6 +63,8 @@ const QuestionCard = ({ question, answer, value, questionOpen, setQuestionOpen }
         </div>
         {isOpen && 
             <QuestionModal 
+                themeAudioRef={themeAudioRef}
+                timesUpAudioRef={timesUpAudioRef}
                 question={question}
                 answer={answer}
                 showAnswer={showAnswer}
