@@ -19,7 +19,7 @@ const Footer = ({ teams, setTeams }) => {
             {showAddTeamForm && <AddTeamForm toggleAddTeamForm={toggleAddTeamForm} teams={teams} setTeams={setTeams} />}
             {
                 teams.map((t)=> {
-                    return <Team key={t.id} name={t.name} score={t.score}/>
+                    return <Team key={t.id} team={t} teams={teams} setTeams={setTeams}/>
                 })
             }
         </footer>

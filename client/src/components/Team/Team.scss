@@ -1,4 +1,5 @@
 @use '../../partials/variables' as *;
+@use '../../partials/placeholders' as *;
 
 .team {
     height: 100%;
@@ -19,6 +20,10 @@
 
     &__change-score {
         display: flex;
+    }
+
+    &__button {
+        @extend %clear-button-styles;
     }
 
     &__icon {
