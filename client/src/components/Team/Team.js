@@ -14,6 +14,7 @@ const Team = ({ team, teams, setTeams }) => {
         const copyOfTeams = [...teams];
         copyOfTeams[teams.indexOf(team)] = team;
         setTeams(copyOfTeams);
+        inputRef.current.value = '';
     }
 
 
