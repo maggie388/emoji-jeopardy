@@ -2,4 +2,18 @@
     background: transparent;
     border: none;
     outline: none;
+    cursor: pointer;
+}
+
+%basic-input {
+    width: 6rem;
+    height: 2rem;
+    border-radius: 5px;
+    outline: none; 
+    margin: 0 0.25rem;
+    text-align: center;
+}
+
+%basic-icon {
+    width: 2rem;
 }

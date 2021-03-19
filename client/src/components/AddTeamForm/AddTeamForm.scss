@@ -1,4 +1,5 @@
 @use '../../partials/variables' as *;
+@use '../../partials/placeholders' as *;
 
 .add-team-form {
     display: flex;
@@ -6,7 +7,6 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    // width: fit-content;
     padding: 0.25rem 0.5rem;
     margin-right: 1rem;
     color: $jeopardy-gold;
@@ -16,7 +16,7 @@
     
     &__label {
         width: 100%;
-        margin-bottom: 0.5rem;
+        margin-bottom: 1.25rem;
     }
 
     &__wrapper {
@@ -26,18 +26,14 @@
     }
 
     &__input {
-        height: 2rem;
-        padding: 0.25rem;
-        margin-right: 0.5rem;
+        @extend %basic-input;
     }
 
     &__button {
-        width: fit-content;
-        border: none;
-        outline: none;
-        background: transparent;
+        @extend %clear-button-styles;
     }
+
     &__icon {
-        width: 2rem;
+        @extend %basic-icon;
     }
 }

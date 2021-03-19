@@ -27,14 +27,10 @@
     }
 
     &__icon {
-        width: 2rem;
+        @extend %basic-icon;
     }
 
     &__input {
-        width: 6rem;
-        border-radius: 5px;
-        outline: none; 
-        margin: 0 0.25rem;
-        text-align: center;
+        @extend %basic-input;
     }
 }
