@@ -3,11 +3,15 @@ import './AddTeamButton.scss';
 
 import addIcon from '../../assets/icons/close-outline.svg';
 
-const AddTeamButton = () => {
+const AddTeamButton = ({ toggleAddTeamForm }) => {
+    const handleAddingTeam = () => {
+        toggleAddTeamForm();
+    }
+
     return (
-        <div className='add-team-button'>
+        <button className='add-team-button' onClick={handleAddingTeam}>
             <img className='add-team-button__icon' src={addIcon} alt="add team" />
-        </div>
+        </button>
     );
 };
 

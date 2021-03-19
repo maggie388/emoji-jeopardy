@@ -13,6 +13,14 @@ const API_URL = 'http://localhost:8080/game';
 
 function App() {
   const [gameData, setGameData] = useState({});
+  const [teams, setTeams] = useState([]);
+
+  /* * * * * * * * * * * * * *
+  teams = [
+    {id: '123', name: 'team1', score: 0},
+    {id: '456', name: 'team2', score: 0}
+  ]
+  * * * * * * * * * * * * * */
 
   useEffect(() => {
     axios
@@ -31,7 +39,7 @@ function App() {
     <div className="app">
       <Header />
       <GameBoard categories={categories} gameData={gameData} />
-      <Footer />
+      <Footer teams={teams} setTeams={setTeams} />
     </div>
   );
 }

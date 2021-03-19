@@ -5,8 +5,12 @@
     @include flex-center;
     width: 8vh;
     height: 8vh;
+    border: none;
     border-radius: 50%;
+    outline: none;
+    margin-right: 1rem;
     background-color: $jeopardy-blue;
+    box-shadow: 0 0 5px 0px black;
 
     &__icon {
         width: 70%;

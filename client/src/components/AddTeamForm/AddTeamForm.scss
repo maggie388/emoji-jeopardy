@@ -1,0 +1,43 @@
+@use '../../partials/variables' as *;
+
+.add-team-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    // width: fit-content;
+    padding: 0.25rem 0.5rem;
+    margin-right: 1rem;
+    color: $jeopardy-gold;
+    background-color: $jeopardy-blue;
+    text-align: center;
+    box-shadow: 0 0 5px 0px black;
+    
+    &__label {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        border-radius: 5px;
+    }
+
+    &__input {
+        height: 2rem;
+        padding: 0.25rem;
+        margin-right: 0.5rem;
+    }
+
+    &__button {
+        width: fit-content;
+        border: none;
+        outline: none;
+        background: transparent;
+    }
+    &__icon {
+        width: 2rem;
+    }
+}

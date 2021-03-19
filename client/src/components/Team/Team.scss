@@ -1,0 +1,35 @@
+@use '../../partials/variables' as *;
+
+.team {
+    height: 100%;
+    padding: 0.25rem 0.5rem;
+    margin-right: 1rem;
+    color: $jeopardy-gold;
+    background-color: $jeopardy-blue;
+    text-align: center;
+    box-shadow: 0 0 5px 0px black;
+
+    &__name {
+        margin-bottom: 0.25rem;
+    }
+
+    &__score {
+        margin-bottom: 0.25rem;
+    }
+
+    &__change-score {
+        display: flex;
+    }
+
+    &__icon {
+        width: 2rem;
+    }
+
+    &__input {
+        width: 6rem;
+        border-radius: 5px;
+        outline: none; 
+        margin: 0 0.25rem;
+        text-align: center;
+    }
+}
