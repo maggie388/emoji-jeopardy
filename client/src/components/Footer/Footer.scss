@@ -7,4 +7,8 @@
     height: $footer-height;
     padding: 0.5rem;
     background-color: $jeopardy-gold;
+
+    &__heading {
+        color: $jeopardy-blue;
+    }
 }

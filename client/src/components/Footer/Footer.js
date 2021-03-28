@@ -17,6 +17,7 @@ const Footer = ({ teams, setTeams }) => {
         <footer className='footer'>
             <AddTeamButton toggleAddTeamForm={toggleAddTeamForm} />
             {showAddTeamForm && <AddTeamForm toggleAddTeamForm={toggleAddTeamForm} teams={teams} setTeams={setTeams} />}
+            {!showAddTeamForm && teams.length === 0 && <h3 className='footer__heading'>Add a Team</h3>}
             {
                 teams.map((t)=> {
                     return <Team key={t.id} team={t} teams={teams} setTeams={setTeams}/>

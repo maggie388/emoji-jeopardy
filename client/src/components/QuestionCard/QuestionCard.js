@@ -16,7 +16,6 @@ const QuestionCard = ({ question, answer, value, questionOpen, setQuestionOpen }
     const [wasClicked, setWasClicked] = useState(false)
     const [timer, setTimer] = useState(seconds);
     const [showAnswer, setShowAnswer] = useState(false);
-    const themeAudioRef = useRef();
     const timesUpAudioRef = useRef();
 
 
@@ -40,7 +39,6 @@ const QuestionCard = ({ question, answer, value, questionOpen, setQuestionOpen }
     const showAnswerOnClick = () => {
         setShowAnswer(true);
         clearInterval(count);
-        themeAudioRef.current.pause();
     }
 
     const closeWindowOnClick = () => {
@@ -52,7 +50,6 @@ const QuestionCard = ({ question, answer, value, questionOpen, setQuestionOpen }
     useEffect(() => {
         if (timer === 0) {
             clearInterval(count);
-            themeAudioRef.current.pause();
             timesUpAudioRef.current.play();
         }
     }, [timer])
@@ -64,7 +61,6 @@ const QuestionCard = ({ question, answer, value, questionOpen, setQuestionOpen }
         </div>
         {isOpen && 
             <QuestionModal 
-                themeAudioRef={themeAudioRef}
                 timesUpAudioRef={timesUpAudioRef}
                 question={question}
                 answer={answer}
