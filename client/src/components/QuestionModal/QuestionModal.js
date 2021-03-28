@@ -10,14 +10,6 @@ const QuestionModal = ({ question, answer, showAnswer, showAnswerOnClick, timer,
     return (
         <div className='question-modal'>
             <audio
-                ref={themeAudioRef}
-                autoPlay={true}
-                loop={true}
-                src={questionMusic}>
-                Your browser does not support the
-                <code>audio</code> element.
-            </audio>
-            <audio
                 ref={timesUpAudioRef}
                 src={timesUpMusic}>
                 Your browser does not support the

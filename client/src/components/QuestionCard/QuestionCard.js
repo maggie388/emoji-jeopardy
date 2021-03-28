@@ -40,6 +40,7 @@ const QuestionCard = ({ question, answer, value, questionOpen, setQuestionOpen }
     const showAnswerOnClick = () => {
         setShowAnswer(true);
         clearInterval(count);
+        themeAudioRef.current.pause();
     }
 
     const closeWindowOnClick = () => {
